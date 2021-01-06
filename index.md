@@ -57,7 +57,7 @@ HANDLE OpenProcess(
 - [x] Make a simple game hack
 - [x] Solve simple CrackMes with IDA/Ghidra
 - [ ] ~~Try making a box with DirectX~~
-- [ ] Solve Difficult CrackMes with IDA/Ghidra
+- [ ] Solve difficult CrackMes with IDA/Ghidra
 - [ ] Learn how to use IDA/Ghidra for game hacking
 
 ## Fun Facts
