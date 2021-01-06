@@ -1,4 +1,4 @@
-## Welcome to Marco Kuan's Github Page
+# Welcome to Marco Kuan's Github Page
 >Do not fear failure but rather fear not trying - Roy T. Bennett
 
 ![San Francisco 1](./images/SF1.jpg)
@@ -25,24 +25,49 @@ If you know C++, I recommend looking at:
    2. [ReadProcessMemory](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory)
    3. [OpenProcess](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess)
 
+```
+BOOL WriteProcessMemory(
+  HANDLE  hProcess,
+  LPVOID  lpBaseAddress,
+  LPCVOID lpBuffer,
+  SIZE_T  nSize,
+  SIZE_T  *lpNumberOfBytesWritten
+);
+
+
+BOOL ReadProcessMemory(
+  HANDLE  hProcess,
+  LPCVOID lpBaseAddress,
+  LPVOID  lpBuffer,
+  SIZE_T  nSize,
+  SIZE_T  *lpNumberOfBytesRead
+);
+
+
+HANDLE OpenProcess(
+  DWORD dwDesiredAccess,
+  BOOL  bInheritHandle,
+  DWORD dwProcessId
+);
+```
+
 ## Goals
 
-- [x] Use Cheat Engine to find static offsets
+- [x] Use **Cheat Engine to find _static_ offsets**
 - [x] Make a simple game hack
 - [x] Solve simple CrackMes with IDA/Ghidra
+- [ ] ~~Try making a box with DirectX~~
 - [ ] Solve Difficult CrackMes with IDA/Ghidra
 - [ ] Learn how to use IDA/Ghidra for game hacking
 
 ## Fun Facts
 
 - I was interested in computer science because of game hacking
+  - I started hacking in Combat Arms
+    - Then, I moved on to Maplestory
 - I started out learning visual basics
 - I love San Francisco's cold weather
-- My favorite animals are dogs :dog:
-
-## My friend
-
-@tamagogani - Austin
+- My favorite animals are dogs
 
 ## Contact
 
@@ -50,4 +75,4 @@ If you know C++, I recommend looking at:
 - Main Email: kuan.n.marco@gmail.com
 - Phone: (628) 225-9166
 
-Feel free to \*contact me\* if you have any questions :+1:
+Feel free to \*contact me\* if you have any questions
